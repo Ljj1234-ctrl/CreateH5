@@ -1,0 +1,40 @@
+{
+  "configs": [
+    {
+      "id": "Mn9vT4Sj",
+      "name": "新建活动",
+      "template": "signup",
+      "status": "draft",
+      "updatedAt": 1773903723075,
+      "hero": {
+        "title": "新建活动",
+        "subTitle": "这里是副标题",
+        "coverUrl": ""
+      },
+      "cta": {
+        "text": "立即报名",
+        "link": "#form"
+      },
+      "signup": {
+        "fields": [
+          {
+            "key": "name",
+            "label": "姓名",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入姓名"
+          },
+          {
+            "key": "phone",
+            "label": "手机号",
+            "type": "phone",
+            "required": true,
+            "placeholder": "请输入手机号"
+          }
+        ],
+        "submitText": "提交报名",
+        "successToast": "报名成功，我们会尽快联系你～"
+      }
+    }
+  ]
+}
